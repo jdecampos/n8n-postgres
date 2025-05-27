@@ -61,6 +61,7 @@ services:
       - DB_POSTGRESDB_PASSWORD=${POSTGRES_PASSWORD}
     volumes:
       - n8n_data:/home/node/.n8n
+      - ./local-files:/files
     depends_on:
       - postgres
 

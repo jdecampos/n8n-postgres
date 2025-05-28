@@ -8,15 +8,17 @@
 ### Création du fichier .env
 
 3. Ajouter un fichier `nano .env` et y mettre le contenu nécessaire
-3. Modifier les informations nécessaires dans le fichier `.env`
+4. Modifier les informations nécessaires dans le fichier `.env`
 
 
 ### Création du fichier docker-compose.yml
 
-4. Créer un fichier `nano docker-compose.yml` et y mettre le contenu nécessaire
+5. Créer un fichier `nano docker-compose.yml` et y mettre le contenu nécessaire
 
 
 ## Création des volumes Docker
+
+6. Copier ces lignes de commande
 
 ```bash
 sudo docker volume create n8n_data

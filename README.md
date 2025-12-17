@@ -64,3 +64,12 @@ sudo docker volume create n8n_data
 sudo docker volume create traefik_data
 sudo docker volume create postgres_data
 ```
+## Start Docker Compose
+```bash
+sudo docker compose up -d
+```
+```bash
+To stop the containers, type:
+```bash
+sudo docker compose stop
+```

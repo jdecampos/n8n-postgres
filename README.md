@@ -68,7 +68,7 @@ sudo docker volume create postgres_data
 ```bash
 sudo docker compose up -d
 ```
-```bash
+
 To stop the containers, type:
 ```bash
 sudo docker compose stop
